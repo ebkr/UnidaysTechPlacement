@@ -1,7 +1,7 @@
 ﻿# UnidaysTechPlacement
  
  
-##The repository contains a batch file to compile and run the Main class.
+## The repository contains a batch file to compile and run the Main class.
 
 
 ### Discounts
