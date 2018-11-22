@@ -1,5 +1,3 @@
-package com.company.unidays;
-
 public class BasketResult {
 
     private double totalCost;

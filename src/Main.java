@@ -1,5 +1,3 @@
-package com.company.unidays;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -31,12 +29,12 @@ public class Main {
 
         // Calculate and display
         BasketResult result = challenge.calculateTotalPrice();
-        System.out.println("Total Price: £" + String.format("%.2f", result.getTotal()));
-        System.out.println("Delivery Price: £" + String.format("%.2f", result.getDeliveryCharge()));
+        System.out.println("Total Price: \u00A3" + String.format("%.2f", result.getTotal()));
+        System.out.println("Delivery Price: \u00A3" + String.format("%.2f", result.getDeliveryCharge()));
 
         System.out.println();
         System.out.println("Press return to close application");
-        scanner.next();
+        scanner.nextLine();
     }
 
     /**
